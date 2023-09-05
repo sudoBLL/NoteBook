@@ -1,6 +1,7 @@
 #page-container {
     width: 80%;
     margin: 0 auto;
+    min-height: 320vh; /* Adjust the minimum height to match your needs */
 }
 
 #form-container {
@@ -65,4 +66,12 @@ button {
     border-radius:5px;
     width:100%;
     cursor: pointer;
+}
+
+body {
+    background-image: url('images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
